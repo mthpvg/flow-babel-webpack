@@ -1,4 +1,13 @@
-const greeter = 'Hello, world!';
+// @flow
+
+
+
+function greeter(): string {
+  return 'Hello, world!';
+}
+
 const shell = document.getElementById('shell');
 
-shell.innerHTML = greeter;
+if (shell != null) {
+shell.innerHTML = greeter();
+}
