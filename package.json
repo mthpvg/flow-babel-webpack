@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/mthpvg/flow-webpack#readme",
   "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
     "html-webpack-plugin": "^2.26.0",
     "openpack": "^1.0.0",
     "pug": "^2.0.0-beta9",

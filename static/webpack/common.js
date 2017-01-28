@@ -16,6 +16,11 @@ module.exports = {
         test: /\.pug$/,
         loader: 'pug-loader',
         include:  [path.resolve(__dirname, '../src/views')]
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        include:  [path.resolve(__dirname, '../src')]
       }
     ]
   },
