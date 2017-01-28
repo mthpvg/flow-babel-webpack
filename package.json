@@ -1,0 +1,33 @@
+{
+  "name": "flow-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config static/webpack/config.js --inline --content-base bin/",
+    "build": "webpack --display-error-details --config static/webpack/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthpvg/flow-webpack.git"
+  },
+  "keywords": [
+    "flow",
+    "webpack"
+  ],
+  "author": "mthpvg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mthpvg/flow-webpack/issues"
+  },
+  "homepage": "https://github.com/mthpvg/flow-webpack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.26.0",
+    "openpack": "^1.0.0",
+    "pug": "^2.0.0-beta9",
+    "pug-loader": "^2.3.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0",
+    "webpack-merge": "^2.6.0"
+  }
+}
