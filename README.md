@@ -19,7 +19,8 @@ flow init
 
 ### Visual Studio Code
 - install the *Flow for Visual Studio Code* extensions
-- in the root of the project: `.vscode/settings.json`
+- in the root of the project: `.vscode/settings.json`:
+
   ```json
   {
       "javascript.validate.enable": false
